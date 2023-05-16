@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>可见</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="20"></rect>
+    </defs>
+    <g id="10/11" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="登录" transform="translate(-109.000000, -83.000000)">
+            <g id="可见" transform="translate(109.000000, 83.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="蒙版" fill-opacity="0" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <path d="M2.62275753,11.4752775 C1.88513142,10.8803217 1.77614799,9.79156951 2.37933623,9.04348132 C2.4577166,8.94627215 2.54618724,8.85766773 2.6432192,8.77919934 L6.78520573,5.42963243 C8.55142113,4.0013186 11.0510149,3.97459636 12.8089698,5.36523458 L17.1379556,8.78969847 C17.8811876,9.37763559 18.0003263,10.4651799 17.4040593,11.2187966 C17.3197854,11.3253097 17.2235021,11.421727 17.1171758,11.5060795 L12.7558871,14.9660493 C11.0426329,16.3252365 8.63698782,16.3313371 6.95363385,14.9807637 L2.62275753,11.4752775 Z" id="路径" stroke="#282828" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                <path d="M12,8.6862915 C11.0849447,7.77123617 9.60134684,7.77123617 8.6862915,8.6862915 C7.77123617,9.60134684 7.77123617,11.0849447 8.6862915,12" id="路径" stroke="#282828" stroke-linecap="round" mask="url(#mask-2)"></path>
+                <path d="M12.7671368,9.49060583 C11.8520814,8.57555049 10.3684836,8.57555049 9.45342828,9.49060583 C8.53837294,10.4056612 8.53837294,11.889259 9.45342828,12.8043143" id="路径备份" stroke="#282828" stroke-linecap="round" mask="url(#mask-2)" transform="translate(10.767137, 10.804314) rotate(-180.000000) translate(-10.767137, -10.804314) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,64 @@
+<div class="bodyall">
+	<div class="head">
+		<img src="../../../assets/img/head.png" class="headimg" />
+	</div>
+	<div class="half Centerupdown">
+		<div class="blcok-left">
+			<!-- <img src="" /> -->
+		</div>
+		<div class="login-block">
+			<div class="blockhead Centerhorizontally">
+				登录/Login
+			</div>
+			<div class="loginhalf">
+				<div class="phonelogin">
+					<el-form :model="loginform" :rules="loginformrules" ref="loginform">
+						<el-form-item prop="phone">
+							<div class="line">
+								<img src="../../../assets/img/account.svg" />
+								<input type="password" name="oldPwdInput" placeholder="" maxlength="20"
+									autocomplete="off" style="position: fixed;top:-1000px">
+								<input style="display:none">
+								<input type="password" style="display:none">
+								<el-input autocomplete="off" placeholder="请输入用户名" maxlength="11"
+									v-model="loginform.phone">
+								</el-input>
+							</div>
+						</el-form-item>
+						<el-form-item prop="password">
+							<div class="line">
+								<img src="../../../assets/img/password.svg" />
+								<img :src="showpassword?require('../../../assets/img/eyes.svg'):require('../../../assets/img/noeyes.svg')"
+									class="passwordimg" @click="showpassword=!showpassword" />
+								<input type="password" name="oldPwdInput" placeholder="" maxlength="20"
+									autocomplete="off" style="position: fixed;top:-1000px">
+								<input style="display:none">
+								<input type="password" style="display:none">
+								<el-input autocomplete="off" placeholder="请输入密码" :type="showpassword?'text':'password'"
+									v-model="loginform.password"></el-input>
+							</div>
+						</el-form-item>
+						<!-- <el-form-item prop="sign">
+							<div class="line between-line">
+								<div class="Centerupdown"  style="width: 160px;">
+								<img src="../../../assets/img/yzm.svg" />
+								<input type="password" name="oldPwdInput" placeholder="" maxlength="20"
+									autocomplete="off" style="position: fixed;top:-1000px">
+								<input style="display:none">
+								<input type="password" style="display:none">
+								<el-input autocomplete="off" placeholder="请输入验证码" maxlength="11"
+									v-model="loginform.sign">
+								</el-input>
+								</div>
+							<img :src="picture" style="width: 86px;height: 36px;position: relative;" @click="verification">
+							</div>
+						</el-form-item> -->
+					</el-form>
+				</div>
+				<div class="forlogin Centerhorizontally" @click="forlogin">登录</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="bottom"></div>
+</div>

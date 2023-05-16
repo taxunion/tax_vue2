@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>不可见</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="20"></rect>
+    </defs>
+    <g id="10/11" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="登录" transform="translate(-1050.000000, -356.000000)">
+            <g id="编组" transform="translate(750.000000, 186.000000)">
+                <g id="不可见" transform="translate(300.000000, 170.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="蒙版" fill-opacity="0" fill="#D8D8D8" xlink:href="#path-1"></use>
+                    <path d="M15.8133997,4.63469139 L5.95923046,14.1664154 L2.62275753,11.4752775 C1.88513142,10.8803217 1.77614799,9.79156951 2.37933623,9.04348132 C2.4577166,8.94627215 2.54618724,8.85766773 2.6432192,8.77919934 L6.78520573,5.42963243 C8.55142113,4.0013186 11.0510149,3.97459636 12.8089698,5.36523458 L17.1379556,8.78969847 C17.8811876,9.37763559 18.0003263,10.4651799 17.4040593,11.2187966 C17.3197854,11.3253097 17.2235021,11.421727 17.1171758,11.5060795 L12.7558871,14.9660493 C11.0426329,16.3252365 8.63698782,16.3313371 6.95363385,14.9807637" id="路径" stroke="#282828" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                    <path d="M11,8.6862915 C10.0849447,7.77123617 8.60134684,7.77123617 7.6862915,8.6862915 C6.77123617,9.60134684 6.77123617,11.0849447 7.6862915,12" id="路径" stroke="#282828" stroke-linecap="round" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

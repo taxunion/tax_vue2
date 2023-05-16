@@ -1,0 +1,82 @@
+	.bqsx{
+		width: 40px;
+		height: 40px;
+		background: #FFFFFF;
+		box-shadow: 0px 2px 4px 0px rgba(233,233,233,1);
+		border-radius: 0px 0px 0px 4px;
+		display: flex;
+		cursor: pointer;
+		justify-content: center;
+		align-items: center;
+	}
+    .tags {
+        position: sticky;
+        height: 40px;
+		top: 0px;
+		z-index: 99;
+        overflow: hidden;
+        background: #fff;
+        padding-right: 120px;
+        /* box-shadow: 0 5px 10px #ddd; */
+    }
+
+    .tags ul {
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+    }
+
+    .tags-li {
+        float: left;
+		height: 32px;
+		border-radius: 4px;
+		margin: 4px;
+		border: 1px solid #E9E9E9;
+        font-size: 12px;
+        overflow: hidden;
+        cursor: pointer;
+        line-height: 32px;
+        background: #fff;
+        padding: 0 5px 0 12px;
+        vertical-align: middle;
+        color: #666;
+        -webkit-transition: all .3s ease-in;
+        -moz-transition: all .3s ease-in;
+        transition: all .3s ease-in;
+    }
+
+    .tags-li:not(.active):hover {
+		color:rgba(233, 233, 233, 1)
+    }
+
+    .tags-li.active {
+       color: #87B9FF;
+	   border: 1px solid rgba(135, 185, 255, 1);
+	   background-color:white;
+	   box-sizing: border-box;
+    }
+
+    .tags-li-title {
+        float: left;
+        max-width: 80px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        margin-right: 5px;
+       color: #999999;
+    }
+
+    .tags-li.active .tags-li-title {
+        color: #87B9FF;
+    }
+
+    .tags-close-box {
+        position: absolute;
+        right: 0;
+        top: 0;
+        box-sizing: border-box;
+        width: 40px;
+        height: 40px;
+        background: #fff;
+        z-index: 10;
+    }

@@ -1,0 +1,6 @@
+var comMapping = {
+	
+}
+export {
+	comMapping
+}

@@ -1,0 +1,233 @@
+/* 竖形垂直居中布局 */
+.Verticalcenter {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.form-item {
+	display: flex;
+}
+.inputreader {
+	background: rgba(242, 242, 242, 1);
+}
+.buttomMargin > div {
+	margin-right: 16px;
+}
+/deep/.tableitemstyle {
+	height: 33px;
+}
+
+.colorz/deep/.el-checkbox__label {
+	color: #0065b1 !important;
+}
+.buttontextstyle {
+	font-size: 12px !important;
+}
+/* 竖形平均分配布局 */
+.distribution {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.Verticalcenter-line {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.Verticalcenter-inline {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+/* 横行平均分配且上下居中布局 */
+.distribution-line {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+/* 横行两端对齐且上下居中布局 */
+.between-line {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+/* 水平上下居中 */
+.Centerhorizontally {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+/* 上下居中 */
+.Centerupdown {
+	display: flex;
+	align-items: center;
+}
+/* 水平居中 */
+.horizontally {
+	display: flex;
+	justify-content: center;
+}
+/* 平均分配 */
+.around-space {
+	display: flex;
+	justify-content: space-around;
+}
+/* 纵向布局 */
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+/* 竖形两端对齐 */
+.flex-column-between {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+/* 两端对齐 */
+.between-space {
+	display: flex;
+	justify-content: space-between;
+}
+/* 轴线对齐且居最末 */
+.end-flex {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.headline {
+	width: 100%;
+	height: 1px;
+	background: #e4e4e4;
+	margin-bottom: 16px;
+}
+.filterimgStyle {
+	width: 24px;
+	height: 24px;
+	margin-right: 16px;
+}
+.filterimgStyle:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}
+.buttontextstyle {
+	font-size: 14px;
+	font-weight: 400;
+	color: #0065b1;
+	text-decoration: underline;
+}
+.buttontextstyle:hover {
+	cursor: pointer;
+	opacity: 0.7;
+}
+.disable-buttontextstyle {
+	font-size: 14px;
+	font-weight: 400;
+	color: #999999;
+}
+.disable-buttontextstyle:hover {
+	cursor: not-allowed;
+}
+.tablestyle {
+	padding: 16px 16px 16px 0px;
+}
+.overtext {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+}
+
+.overtextpop {
+	width: 220px;
+	background: rgba(0, 0, 0, 0.4) !important;
+	box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.04), 0px 2px 4px 0px rgba(0, 0, 0, 0.12) !important;
+	backdrop-filter: blur(4px) !important;
+	font-size: 14px !important;
+	font-weight: 300;
+	color: #ffffff;
+}
+.el-popper .popper__arrow {
+	display: none !important;
+}
+.bodybox {
+	box-sizing: border-box;
+	padding: 5px 0px 0px 16px;
+}
+.hoverstyle:hover {
+	opacity: 0.7;
+}
+.taball-item {
+	font-size: 14px;
+	font-weight: 400;
+	color: #666666;
+	border-bottom: 2px solid white;
+	margin-right: 60px;
+	padding-bottom: 5px;
+	cursor: pointer;
+}
+.taball-item-choose {
+	font-size: 14px;
+	font-weight: 400;
+	color: #0065b1;
+	margin-right: 60px;
+	border-bottom: 2px solid #0065b1;
+	padding-bottom: 5px;
+}
+/deep/.el-table__body-wrapper::-webkit-scrollbar {
+	width: 8px !important;
+	height: 8px !important;
+}
+/deep/.el-table__fixed-right {
+	right: 8px !important;
+	bottom: 0px !important;
+}
+/deep/.el-table th.gutter {
+	opacity: 0;
+}
+/deep/.el-table__fixed-right-patch {
+	width: 8px !important;
+}
+/deep/.el-table__body-wrapper::-webkit-scrollbar-thumb {
+	background-color: #999;
+}
+/deep/.el-table thead {
+	font-size: 14px;
+	font-weight: 400;
+	color: #333333;
+}
+.treebutton:extend(.Verticalcenter) {
+	width: 88px;
+	height: 34px;
+	background: #edf7ff;
+	border-radius: 4px;
+	border: 1px solid #0065b1;
+	font-size: 14px;
+	font-weight: 400;
+	color: #0065b1;
+}
+.treebutton:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}
+.hoverts {
+	display: flex;
+	flex-direction: column;
+	align-items: baseline !important;
+	padding: 8px;
+	max-width: 480px !important;
+	background-color: #fffaef !important;
+	box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.04), 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	max-width: 480px;
+	min-width: 100%;
+	z-index: 10;
+	.hoverHref {
+		color: #0065b1;
+	}
+	.hoverHref:hover {
+		cursor: pointer;
+		opacity: 0.7;
+		text-decoration: underline;
+	}
+}

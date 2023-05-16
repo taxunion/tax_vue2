@@ -1,0 +1,244 @@
+.el-menu--popup {
+	min-width: 100px;
+}
+
+.sidebar:extend(.Centerupdown)  {
+	// display: flex;
+	position: absolute;
+	left: 0;
+	// align-items: center;
+	top: 50px;
+	bottom: 0;
+	overflow-x: hidden;
+	font-weight: 500;
+}
+
+.sidebarimg {
+	margin-left: -3px;
+	width: 0px;
+	transition: width 0.8s ease-in-out;
+}
+.sidebar::-webkit-scrollbar {
+	width: 0;
+}
+
+.sidebar-el-menu:not(.el-menu--collapse) {
+	width: 200px;
+}
+
+.sidebar > ul {
+	height: 100%;
+}
+.el-menu {
+	border-right: 0px;
+	box-sizing: border-box;
+	padding: 0px 20px 0px 20px;
+}
+.el-submenu .el-menu-item {
+	min-width: auto;
+	padding-left: 30px !important;
+	// margin: 0px 20px 0px 20px;
+}
+
+/deep/.el-submenu__title {
+	padding-left: 0px !important;
+}
+/deep/.el-menu-item * {
+	padding-left: 0px !important;
+}
+/deep/.el-menu-item {
+	padding-left: 0px !important;
+}
+/deep/.el-submenu__icon-arrow {
+	right: 5px !important;
+}
+
+.sidebar:hover {
+	ul {
+		box-shadow: 2px 0px 4px 0px #e9e9e9;
+		z-index: 100;
+	}
+	.sidebarimg {
+		width: 22px;
+		cursor: pointer;
+		height: 98px;
+		box-shadow: 2px 0px 4px 0px #e9e9e9;
+		z-index: 100;
+	}
+}
+/deep/.el-menu-item.is-active {
+	color: #0065b1 !important;
+}
+/deep/.el-menu-item:hover {
+	background-color: #e5effd;
+	border-radius: 4px;
+}
+// .meauicon1 {
+// 	width: 20px;
+// 	height: 20px;
+// 	margin-right: 12px;
+// 	margin-bottom: 3px;
+// 	background: url('../../../assets/img/meauicon1.svg') center no-repeat !important;
+// 	background-size: cover !important;
+// }
+// .meauicon1:before {
+// 	content: '替';
+// 	font-size: 20px;
+// 	visibility: hidden;
+// }
+// .meauicon1_click {
+// 	width: 20px;
+// 	height: 20px;
+// 	margin-right: 12px;
+// 	margin-bottom: 3px;
+// 	background: url('../../../assets/img/meauicon1_click.svg') center no-repeat !important;
+// 	background-size: cover !important;
+// }
+// .meauicon1_click:before {
+// 	content: '替';
+// 	font-size: 20px;
+// 	visibility: hidden;
+// }
+// .meauicon2 {
+// 	width: 20px;
+// 	height: 20px;
+// 	margin-right: 12px;
+// 	margin-bottom: 3px;
+// 	background: url('../../../assets/img/meauicon2.svg') center no-repeat !important;
+// 	background-size: cover !important;
+// }
+// .meauicon2:before {
+// 	content: '替';
+// 	font-size: 20px;
+// 	visibility: hidden;
+// }
+// .meauicon3 {
+// 	width: 20px;
+// 	height: 20px;
+// 	margin-right: 12px;
+// 	margin-bottom: 3px;
+// 	background: url('../../../assets/img/meauicon3.svg') center no-repeat !important;
+// 	background-size: cover !important;
+// }
+// .meauicon3:before {
+// 	content: '替';
+// 	font-size: 20px;
+// 	visibility: hidden;
+// }
+// .meauicon4 {
+// 	width: 20px;
+// 	height: 20px;
+// 	margin-right: 12px;
+// 	margin-bottom: 3px;
+// 	background: url('../../../assets/img/meauicon4.svg') center no-repeat !important;
+// 	background-size: cover !important;
+// }
+// .meauicon4:before {
+// 	content: '替';
+// 	font-size: 20px;
+// 	visibility: hidden;
+// }
+// .meauicon5 {
+// 	width: 20px;
+// 	height: 20px;
+// 	margin-right: 12px;
+// 	margin-bottom: 3px;
+// 	background: url('../../../assets/img/meauicon5.svg') center no-repeat !important;
+// 	background-size: cover !important;
+// }
+// .meauicon5:before {
+// 	content: '替';
+// 	font-size: 20px;
+// 	visibility: hidden;
+// }
+// .meauicon6 {
+// 	width: 20px;
+// 	height: 20px;
+// 	margin-right: 12px;
+// 	margin-bottom: 3px;
+// 	background: url('../../../assets/img/meauicon6.svg') center no-repeat !important;
+// 	background-size: cover !important;
+// }
+// .meauicon6:before {
+// 	content: '替';
+// 	font-size: 20px;
+// 	visibility: hidden;
+// }
+// .meauicon7 {
+// 	width: 20px;
+// 	height: 20px;
+// 	margin-right: 12px;
+// 	margin-bottom: 3px;
+// 	background: url('../../../assets/img/meauicon7.svg') center no-repeat !important;
+// 	background-size: cover !important;
+// }
+// .meauicon7:before {
+// 	content: '替';
+// 	font-size: 20px;
+// 	visibility: hidden;
+// }
+// .meauicon8 {
+// 	width: 20px;
+// 	height: 20px;
+// 	margin-right: 12px;
+// 	margin-bottom: 3px;
+// 	background: url('../../../assets/img/meauicon8.svg') center no-repeat !important;
+// 	background-size: cover !important;
+// }
+// .meauicon8:before {
+// 	content: '替';
+// 	font-size: 20px;
+// 	visibility: hidden;
+// }
+// .meauicon9 {
+// 	width: 20px;
+// 	height: 20px;
+// 	margin-right: 12px;
+// 	margin-bottom: 3px;
+// 	background: url('../../../assets/img/meauicon9.svg') center no-repeat !important;
+// 	background-size: cover !important;
+// }
+// .meauicon9:before {
+// 	content: '替';
+// 	font-size: 20px;
+// 	visibility: hidden;
+// }
+// .meauicon9_click {
+// 	width: 20px;
+// 	height: 20px;
+// 	margin-right: 12px;
+// 	margin-bottom: 3px;
+// 	background: url('../../../assets/img/meauicon9_click.svg') center no-repeat !important;
+// 	background-size: cover !important;
+// }
+// .meauicon9_click:before {
+// 	content: '替';
+// 	font-size: 20px;
+// 	visibility: hidden;
+// }
+// .meauicon10 {
+// 	width: 20px;
+// 	height: 20px;
+// 	margin-right: 12px;
+// 	margin-bottom: 3px;
+// 	background: url('../../../assets/img/meauicon10.svg') center no-repeat !important;
+// 	background-size: cover !important;
+// }
+// .meauicon10:before {
+// 	content: '替';
+// 	font-size: 20px;
+// 	visibility: hidden;
+// }
+// .meauicon10_click {
+// 	width: 20px;
+// 	height: 20px;
+// 	margin-right: 12px;
+// 	margin-bottom: 3px;
+// 	background: url('../../../assets/img/meauicon10_click.svg') center no-repeat !important;
+// 	background-size: cover !important;
+// }
+// .meauicon10_click:before {
+// 	content: '替';
+// 	font-size: 20px;
+// 	visibility: hidden;
+// }

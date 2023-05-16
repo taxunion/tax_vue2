@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>账户</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="20"></rect>
+    </defs>
+    <g id="登录" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="纳税申报" transform="translate(-686.000000, -365.000000)">
+            <g id="编组-12" transform="translate(270.000000, 179.000000)">
+                <g id="编组" transform="translate(373.000000, 86.000000)">
+                    <g transform="translate(35.000000, 30.000000)" id="编组-6">
+                        <g transform="translate(0.000000, 62.000000)">
+                            <g id="账户" transform="translate(8.000000, 8.000000)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="矩形"></g>
+                                <circle id="椭圆形" stroke="#282828" mask="url(#mask-2)" cx="10.5454545" cy="7.54545455" r="3.04545455"></circle>
+                                <path d="M16.8181818,16.9090909 C16.8181818,13.6455901 14.1725917,11 10.9090909,11 C7.64559011,11 5,13.6455901 5,16.9090909" id="路径" stroke="#282828" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
